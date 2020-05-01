@@ -1,0 +1,227 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG1                PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\bg_day.png"
+
+IDB_PNG2                PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\bg_night.png"
+
+IDB_PNG3                PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\bird0_0.png"
+
+IDB_PNG4                PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\bird0_1.png"
+
+IDB_PNG5                PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\bird0_2.png"
+
+IDB_PNG6                PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\bird1_0.png"
+
+IDB_PNG7                PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\bird1_1.png"
+
+IDB_PNG8                PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\bird1_2.png"
+
+IDB_PNG9                PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\bird2_0.png"
+
+IDB_PNG10               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\bird2_1.png"
+
+IDB_PNG11               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\bird2_2.png"
+
+IDB_PNG12               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\black.png"
+
+IDB_PNG13               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\blink_00.png"
+
+IDB_PNG14               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\blink_01.png"
+
+IDB_PNG15               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\blink_02.png"
+
+IDB_PNG16               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\button_menu.png"
+
+IDB_PNG17               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\button_ok.png"
+
+IDB_PNG18               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\button_pause.png"
+
+IDB_PNG19               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\button_play.png"
+
+IDB_PNG20               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\button_rate.png"
+
+IDB_PNG21               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\button_resume.png"
+
+IDB_PNG22               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\button_score.png"
+
+IDB_PNG24               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\font_048.png"
+
+IDB_PNG25               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\font_049.png"
+
+IDB_PNG26               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\font_050.png"
+
+IDB_PNG27               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\font_051.png"
+
+IDB_PNG28               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\font_052.png"
+
+IDB_PNG29               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\font_053.png"
+
+IDB_PNG30               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\font_054.png"
+
+IDB_PNG31               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\font_055.png"
+
+IDB_PNG32               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\font_056.png"
+
+IDB_PNG33               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\font_057.png"
+
+IDB_PNG34               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\land.png"
+
+IDB_PNG35               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\medals_0.png"
+
+IDB_PNG36               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\medals_1.png"
+
+IDB_PNG37               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\medals_2.png"
+
+IDB_PNG38               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\medals_3.png"
+
+IDB_PNG39               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\new.png"
+
+IDB_PNG40               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_context_00.png"
+
+IDB_PNG41               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_context_01.png"
+
+IDB_PNG42               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_context_02.png"
+
+IDB_PNG43               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_context_03.png"
+
+IDB_PNG44               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_context_04.png"
+
+IDB_PNG45               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_context_05.png"
+
+IDB_PNG46               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_context_06.png"
+
+IDB_PNG47               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_context_07.png"
+
+IDB_PNG48               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_context_08.png"
+
+IDB_PNG49               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_context_09.png"
+
+IDB_PNG50               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_context_10.png"
+
+IDB_PNG51               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_score_00.png"
+
+IDB_PNG52               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_score_01.png"
+
+IDB_PNG53               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_score_02.png"
+
+IDB_PNG54               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_score_03.png"
+
+IDB_PNG55               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_score_04.png"
+
+IDB_PNG56               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_score_05.png"
+
+IDB_PNG57               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_score_06.png"
+
+IDB_PNG58               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_score_07.png"
+
+IDB_PNG59               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_score_08.png"
+
+IDB_PNG60               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\number_score_09.png"
+
+IDB_PNG61               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\pipe_down.png"
+
+IDB_PNG62               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\pipe_up.png"
+
+IDB_PNG63               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\pipe2_down.png"
+
+IDB_PNG64               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\pipe2_up.png"
+
+IDB_PNG65               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\score_panel.png"
+
+IDB_PNG66               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\text_game_over.png"
+
+IDB_PNG67               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\text_ready.png"
+
+IDB_PNG68               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\title.png"
+
+IDB_PNG69               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\tutorial.png"
+
+IDB_PNG70               PNG                     "D:\\c files\\easyX\\Flappy_Bird!\\flappybird_img\\white.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// MP4
+//
+
+IDR_MP41                MP4                     "D:\\Music\\Super-Mario-OverworldSophian-Alkurdi.mp3"
+
+IDR_MP42                MP4                     "mp42.bin"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "D:\\c files\\easyX\\Flappy_Bird!\\Flappy_Bird!\\ico.ico"
+
+IDI_ICON2               ICON                    "ico2.ico"
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

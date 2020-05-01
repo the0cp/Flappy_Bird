@@ -1,0 +1,4 @@
+﻿  Flappy_Bird!.cpp
+D:\c files\easyX\Flappy_Bird!\Flappy_Bird!\Flappy_Bird!.cpp(50,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\c files\easyX\Flappy_Bird!\Flappy_Bird!\Flappy_Bird!.cpp(50,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  Flappy_Bird!.vcxproj -> D:\c files\easyX\Flappy_Bird!\Debug\Flappy_Bird!.exe

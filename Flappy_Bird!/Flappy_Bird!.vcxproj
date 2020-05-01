@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{CF68CFA9-700E-4FAC-9896-F91A38556C9A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FlappyBird</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Flappy_Bird!.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Flappy_Bird!.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\flappybird_img\bg_day.png" />
+    <Image Include="..\flappybird_img\bg_night.png" />
+    <Image Include="..\flappybird_img\bird0_0.png" />
+    <Image Include="..\flappybird_img\bird0_1.png" />
+    <Image Include="..\flappybird_img\bird0_2.png" />
+    <Image Include="..\flappybird_img\bird1_0.png" />
+    <Image Include="..\flappybird_img\bird1_1.png" />
+    <Image Include="..\flappybird_img\bird1_2.png" />
+    <Image Include="..\flappybird_img\bird2_0.png" />
+    <Image Include="..\flappybird_img\bird2_1.png" />
+    <Image Include="..\flappybird_img\bird2_2.png" />
+    <Image Include="..\flappybird_img\black.png" />
+    <Image Include="..\flappybird_img\blink_00.png" />
+    <Image Include="..\flappybird_img\blink_01.png" />
+    <Image Include="..\flappybird_img\blink_02.png" />
+    <Image Include="..\flappybird_img\button_menu.png" />
+    <Image Include="..\flappybird_img\button_ok.png" />
+    <Image Include="..\flappybird_img\button_pause.png" />
+    <Image Include="..\flappybird_img\button_play.png" />
+    <Image Include="..\flappybird_img\button_rate.png" />
+    <Image Include="..\flappybird_img\button_resume.png" />
+    <Image Include="..\flappybird_img\button_score.png" />
+    <Image Include="..\flappybird_img\button_share.png" />
+    <Image Include="..\flappybird_img\font_048.png" />
+    <Image Include="..\flappybird_img\font_049.png" />
+    <Image Include="..\flappybird_img\font_050.png" />
+    <Image Include="..\flappybird_img\font_051.png" />
+    <Image Include="..\flappybird_img\font_052.png" />
+    <Image Include="..\flappybird_img\font_053.png" />
+    <Image Include="..\flappybird_img\font_054.png" />
+    <Image Include="..\flappybird_img\font_055.png" />
+    <Image Include="..\flappybird_img\font_056.png" />
+    <Image Include="..\flappybird_img\font_057.png" />
+    <Image Include="..\flappybird_img\land.png" />
+    <Image Include="..\flappybird_img\medals_0.png" />
+    <Image Include="..\flappybird_img\medals_1.png" />
+    <Image Include="..\flappybird_img\medals_2.png" />
+    <Image Include="..\flappybird_img\medals_3.png" />
+    <Image Include="..\flappybird_img\new.png" />
+    <Image Include="..\flappybird_img\number_context_00.png" />
+    <Image Include="..\flappybird_img\number_context_01.png" />
+    <Image Include="..\flappybird_img\number_context_02.png" />
+    <Image Include="..\flappybird_img\number_context_03.png" />
+    <Image Include="..\flappybird_img\number_context_04.png" />
+    <Image Include="..\flappybird_img\number_context_05.png" />
+    <Image Include="..\flappybird_img\number_context_06.png" />
+    <Image Include="..\flappybird_img\number_context_07.png" />
+    <Image Include="..\flappybird_img\number_context_08.png" />
+    <Image Include="..\flappybird_img\number_context_09.png" />
+    <Image Include="..\flappybird_img\number_context_10.png" />
+    <Image Include="..\flappybird_img\number_score_00.png" />
+    <Image Include="..\flappybird_img\number_score_01.png" />
+    <Image Include="..\flappybird_img\number_score_02.png" />
+    <Image Include="..\flappybird_img\number_score_03.png" />
+    <Image Include="..\flappybird_img\number_score_04.png" />
+    <Image Include="..\flappybird_img\number_score_05.png" />
+    <Image Include="..\flappybird_img\number_score_06.png" />
+    <Image Include="..\flappybird_img\number_score_07.png" />
+    <Image Include="..\flappybird_img\number_score_08.png" />
+    <Image Include="..\flappybird_img\number_score_09.png" />
+    <Image Include="..\flappybird_img\pipe2_down.png" />
+    <Image Include="..\flappybird_img\pipe2_up.png" />
+    <Image Include="..\flappybird_img\pipe_down.png" />
+    <Image Include="..\flappybird_img\pipe_up.png" />
+    <Image Include="..\flappybird_img\score_panel.png" />
+    <Image Include="..\flappybird_img\text_game_over.png" />
+    <Image Include="..\flappybird_img\text_ready.png" />
+    <Image Include="..\flappybird_img\title.png" />
+    <Image Include="..\flappybird_img\tutorial.png" />
+    <Image Include="..\flappybird_img\white.png" />
+    <Image Include="ico.ico" />
+    <Image Include="ico2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Music\Super-Mario-OverworldSophian-Alkurdi.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mp42.bin" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

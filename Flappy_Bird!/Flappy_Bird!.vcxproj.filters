@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Flappy_Bird!.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Flappy_Bird!.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\flappybird_img\bg_day.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\bg_night.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\bird0_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\bird0_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\bird0_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\bird1_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\bird1_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\bird1_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\bird2_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\bird2_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\bird2_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\blink_00.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\blink_01.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\blink_02.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\button_menu.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\button_ok.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\button_pause.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\button_play.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\button_rate.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\button_resume.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\button_score.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\font_048.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\font_049.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\font_050.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\font_051.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\font_052.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\font_053.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\font_054.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\font_055.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\font_056.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\font_057.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\land.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\medals_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\medals_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\medals_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\medals_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\new.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_context_00.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_context_01.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_context_02.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_context_03.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_context_04.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_context_05.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_context_06.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_context_07.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_context_08.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_context_09.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_context_10.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_score_00.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_score_01.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_score_02.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_score_03.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_score_04.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_score_05.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_score_06.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_score_07.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_score_08.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\number_score_09.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\pipe_down.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\pipe_up.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\pipe2_down.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\pipe2_up.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\score_panel.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\text_game_over.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\title.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\tutorial.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\black.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\button_share.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\text_ready.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\flappybird_img\white.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ico.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ico2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Music\Super-Mario-OverworldSophian-Alkurdi.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mp42.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
