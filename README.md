@@ -1,2 +1,3 @@
-# Flappy_Bird
-EasyX, C, Game. 
+# Flappy Bird
+# More Projects:
+https://github.com/theodorecooper/
